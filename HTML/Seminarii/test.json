@@ -1,0 +1,72 @@
+// {
+//     "test" : [{
+//         "ключ" : "значение",
+//         "ключ2":  "значение2"
+//     },
+    
+//     {
+//         "спецключ" : "спецзначение"
+//     }]
+// }
+
+{
+    "catalog":[
+    {
+        "name": "Яблоки",
+        "weight": 1000,
+        "group": "Фрукты",
+        "cost": 150.0,
+        "containerNumber": 1
+    },
+    {
+        "name": "Картошка ранняя",
+        "weight": 5000,
+        "group": "Овощи",
+        "cost": 320.0,
+        "containerNumber": 2
+    },
+    {
+        "name": "Бананы",
+        "weight": 1000,
+        "group": "Фрукты",
+        "cost": 99.0,
+        "containerNumber": 1
+    },
+    {
+        "name": "Баунти мини",
+        "weight": 100,
+        "group": "Кондитерские изделия",
+        "cost": 180.0,
+        "containerNumber": 3
+    }]
+}
+    "catalog":[
+    {
+        "name": "Яблоки",
+        "weight": 1000,
+        "group": "Фрукты",
+        "cost": 150.0,
+        "containerNumber": 1
+    },
+    {
+        "name": "Картошка ранняя",
+        "weight": 5000,
+        "group": "Овощи",
+        "cost": 320.0,
+        "containerNumber": 2
+    },
+    {
+        "name": "Бананы",
+        "weight": 1000,
+        "group": "Фрукты",
+        "cost": 99.0,
+        "containerNumber": 1
+    },
+    {
+        "name": "Баунти мини",
+        "weight": 100,
+        "group": "Кондитерские изделия",
+        "cost": 180.0,
+        "containerNumber": 3
+    }]
+}

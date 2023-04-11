@@ -1,0 +1,5 @@
+GET https://vk.com
+
+###
+
+POST https://yandex.ru/search/?text=собаки

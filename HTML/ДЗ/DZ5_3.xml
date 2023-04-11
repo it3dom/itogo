@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Rating>
+    <Serial>
+        <id>1</id>
+        <name>Игра престолов</name>
+        <years>2011-2019</years>
+        <country>США</country>
+        <genre>Фэнтази</genre>
+        <rating>9,4</rating>
+
+    </Serial>
+
+    <Serial>
+        <id>2</id>
+        <name>Во все тяжкие</name>
+        <years>2008-2013</years>
+        <country>США</country>
+        <genre>Криминал</genre>
+        <rating>9,4</rating>
+
+    </Serial>
+
+    <Serial>
+        <id>3</id>
+        <name>Прослушка</name>
+        <years>2002-2008</years>
+        <country>США</country>
+        <genre>Криминал</genre>
+        <rating>9,3</rating>
+
+    </Serial>
+
+    <Serial>
+        <id>4</id>
+        <name>Клан Сопрано</name>
+        <years>1999-2007</years>
+        <country>США</country>
+        <genre>Криминал</genre>
+        <rating>9,1</rating>
+
+    </Serial>
+
+    <Serial>
+        <id>5</id>
+        <name>Шерлок</name>
+        <years>2010- по н.в.</years>
+        <country>Великобритания</country>
+        <genre>детектив</genre>
+        <rating>9,1</rating>
+
+    </Serial>
+
+</Rating>

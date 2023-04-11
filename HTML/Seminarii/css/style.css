@@ -1,0 +1,76 @@
+body,html{
+width: auto ;
+overflow-x: hidden;
+font-family: Arial;
+font-weight: 500;
+margin: 0 0 0 0;
+
+}
+header{
+display: flex;
+flex-direction: row;
+padding: 0 0 0 220px;
+}
+img{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+p{
+    font-size: 14px;
+}
+
+nav {
+    margin: 0 0 0 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+nav li {
+    padding: 0 12px 0 25px;
+
+}
+.container{
+    background: url(../img/klipartz.com.png);
+    background-size: contain;
+     background-color: #f9c; 
+
+}
+h1{
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+  }
+  
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+  }
+  
+  
+  .card-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }

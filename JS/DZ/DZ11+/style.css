@@ -1,0 +1,866 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {	padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+    
+    }
+    .container{
+    margin: 0 auto;
+    width: 1600px;
+            
+    } 
+    .header{   
+    height: 75px;
+    background: #222222;
+    display: flex;
+    gap: 859px; 
+    align-items: center;       
+    }
+    .btn1{
+    background: #222222;
+    border: none;
+    cursor: pointer; 
+    }
+    .btn_right{
+    display: flex;
+    gap: 33px;
+    width: 169px;
+    height: 37px;       
+    }
+    .btn_left{
+    width: 111px;    
+    display: flex;
+    gap: 41px;
+    margin-left: 231px;    
+    }
+    .five{
+    position: absolute;    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    background: #F16D7F;
+    width: 19px;
+    height: 19px;
+    margin: 0 0 22px 150px;
+    padding: 3px 6px ;
+    border-radius: 10px;
+    }
+    .main{
+    background: #F1E4E6;
+    display: flex; 
+    gap: 64px;    
+    align-items: center;
+    }
+    .brand{
+    width: 405px;
+    height: 93px;  
+    border-left: 12px solid #F16D7F;     
+    padding-left: 16px;          
+    }
+    .h1{
+    font-family: 'Lato';
+    font-size: 48px;
+    color: #222222;
+    }  
+    .h2{
+    font-family: 'Lato';   
+    font-size: 32px;        
+    }
+
+
+    .Ham_menu{
+    display: none;    
+    }
+    .menu_open{
+    width: 232px;
+    height: 634px;
+    background-color: #FFFFFF; 
+    margin-top: -133px;
+    margin-left: 33px; 
+    }
+    .menu_close{
+    border: 0;    
+    }
+    .menu_btn_close{
+    display: flex;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 32px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .pic_close{
+    width: 25px;
+    height: 25px;    
+    cursor: pointer;
+    }    
+    li{
+    list-style: none;
+    margin-bottom: 11px;    
+    }
+    h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;  
+    color: #F16D7F;
+    margin: 20px auto 12px 32px;
+    }
+    .menuCheck{
+    text-decoration: none;    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-left: 54px;
+            
+    }
+
+    .Menu_main{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;    
+    }
+
+
+    .menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;        
+    }
+    .fon{
+    margin-top: 65px;  
+    background: #211616;    
+    height: 260px; 
+    border: none; 
+    position: relative;                   
+    }    
+    .fon img{
+    opacity: 0.3;    
+    }   
+    .text{       
+    position: absolute;
+    left: 103px;
+    bottom: 105px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;        
+    }
+    .text h3{
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;    
+    }
+    .fon1{
+    background:#211616 ;        
+    height: 180px;
+    border: none;
+    position: relative;    
+    }
+    .fon1 img{
+    opacity: 0.3;
+    }
+    .text1{
+    position: absolute;
+    left: 490px;
+    bottom: 65px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;  
+    }
+    .text1 h3{
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;       
+    }
+    .info{        
+    text-align: center;    
+    }
+    .FI{
+    margin-top: 96px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;               
+    color: #222222; 
+    }
+    .FI_text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    margin-bottom: 48px;
+    }
+    .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 1140px; 
+    gap: 30px;  
+    }
+    .PE1{
+        width: 360px;
+        height: 420px;
+    }
+    .ellery{
+    width: 148px;
+    height: 16px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 23px;
+    margin-bottom: 13px; 
+    margin-left: 18px;
+    }
+
+    .PE1:hover{       
+    background: rgba(58, 56, 56, 0.86);        
+    height: auto;
+    border: none;
+    height: 420px;   
+    position: relative;
+    }
+    .PE1:hover img{        
+    opacity: 0.3;   
+    }    
+    .ATC{
+    position: absolute;
+    background: rgba(58, 56, 56, 0.86);    
+    border: 1px solid #FFFFFF; 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 16px;  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;    
+    width: 138px;
+    height: 43px;    
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 13px;    
+    top: 188px;
+    left: 111px; 
+    }
+    .btn_ATC{
+    color: #FFFFFF;    
+    border: none;
+    cursor: pointer; 
+    width: 138px;
+    height: 41px;  
+    background: none; 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    }
+    .PE1:hover .ATC{
+    display: flex;    
+    }
+    .ATC{
+    display: none;    
+    }   
+    .PE2:hover{
+    background: rgba(88, 87, 87, 0.86);        
+    height: 420px;
+    border: none;            
+    }
+    .PE2:hover img { 
+    opacity: 0.3;
+    }
+
+
+
+    .ellery_pic2{
+    width: 360px;
+    height: 420px;
+    background: #F7E4E2;
+    display: flex;
+    justify-content: center;
+    }
+    .text_ellery{
+    width: 314px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin-left: 16px;    
+    }
+    .sum{
+    width: 52px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    margin-top: 18px;
+    margin-left: 18px;    
+    }
+    .BAP{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: 1px solid #FF6A6A;
+    padding: 14px 38px;
+    margin-bottom: 95px;
+    margin-top: 48px;
+    cursor: pointer;    
+    }
+    .BAP:hover{
+    background: #F26376;
+    color: white;    
+    }
+    .TT{    
+    display: flex;
+    justify-content: center;
+    }
+    .FSQ{
+    height: 341px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .FD_box{
+    width: 360px;
+    height: 134px;
+    gap: 30px;
+    }
+    .pic_FD{
+    margin: 0 157px 28px 157px;   
+    }
+    .pic_Sales{
+    margin: 0 160px 19px 160px;
+    }
+    .pic_Qua{
+    margin: 0 156px 25px 156px;
+    }
+    .FD{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;   
+    }
+    .FD_text{
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;    
+    }
+    .pic_Layer{
+    height: 448px;
+       
+    gap: 223px; 
+    position: relative;     
+    }
+    .pic_Layer .ds{
+    opacity: 0.3;   
+    }
+    .FW_box{
+    bottom: 126px;    
+    width: 360px;
+    height: 225px;
+    margin-left: 228px;
+    text-align:center;
+    position: absolute;  
+    }
+    .FW_text{
+    margin-top: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;    
+    }
+    .Sub_box{
+    left: 813px;
+    bottom: 156px;    
+    position: absolute;    
+    width: 557px;
+    height: 142px;
+    text-align: center;      
+    }
+    .Sub_text1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;  
+    color: #222224;    
+    }
+    .Sub_text2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167.2%;   
+    color: #222224; 
+    margin-bottom: 32px;   
+    }
+    .Ent_Email{
+    text-indent: 22px;    
+    width: 256px;
+    height: 49px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222224;
+    border-radius: 25px 0 0 25px;    
+    background: #E1E1E1; 
+    border: none; 
+    margin-left: 104px;
+    }
+    .btn_Sub{
+    width: 100px;
+    height: 49px;
+    background: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    border-radius: 0 25px 25px 0;
+    border: 1px solid #FF6A6A;
+    cursor:pointer;
+    text-align: center;
+    }  
+    .btn_Sub:hover{
+    background: #F26376;
+    color: white;    
+    }  
+    input,
+    button {
+    float: left;    
+    }
+    .footer{
+    width: 1600px;
+    height: 79px;
+    background: #222224;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .BARR{
+    width: 332px;
+    margin-left: 235px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB; 
+    }
+    .logo_FIPT{
+    gap: 7px;
+    display: flex;
+    margin-right: 230px;    
+    }
+    .logo_F, .logo_I, .logo_P,.logo_T{
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    }
+    .btn_F:hover{
+    background: #F16D7F;    
+    }
+    .btn_F:hover svg{
+    fill: #FFFFFF;    
+    }
+    .btn_I:hover{
+    background: #F16D7F;    
+    }
+    .btn_I:hover svg{
+    fill: #FFFFFF;    
+    }
+    .btn_P:hover{
+    background: #F16D7F;    
+    }
+    .btn_P:hover svg{
+    fill: #FFFFFF;    
+    }
+    .btn_T:hover{
+    background: #F16D7F;    
+    }
+    .btn_T:hover svg{
+    fill: #FFFFFF;    
+    }
+
+    .btn_F,.btn_I,.btn_T,.btn_P{
+    border: 0;
+    width: 32px;
+    height: 32px; 
+    cursor: pointer;   
+    }
+    .logo_T, .logo_F,.logo_I,.logo_P {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    }
+
+
+
+
+.cartItem{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 96px; 
+margin-bottom: 64px;      
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+color: #222222;
+}
+.cartItems{
+margin-left: 500px;
+} 
+.first{
+width: 652px;
+height: 306px;
+display: flex;
+box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+margin-bottom: 40px;
+justify-content: center;
+}
+.h2{    
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #222222;
+margin-bottom: 42px;
+width: 262px;
+}
+.first_text{
+padding: 22px 0 0 31px;
+
+}
+.first_p{
+
+gap: 6px;
+flex-direction: column;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+color: #575757;
+
+}
+input{
+width: 44px;
+margin-left: 24px;
+}
+.first_close{
+margin-top: 28px;
+margin-left: 30px;
+}
+.price{
+color: #EF5B70;
+}
+.color, .size{
+color: #6F6E6E; 
+}
+.quantity{
+    display: flex;
+    
+}
+input{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #656565;
+border: 1px solid #EAEAEA;
+}
+
+
+
+    @media(max-width: 768px){
+    .container{
+    width: 768px;
+    }
+    .header{
+    gap: 424px;    
+    }
+    .btn_left{       
+    margin-left: 32px;    
+    }
+    .btnTrolly{
+    margin-left: 9px;
+    }
+    .pic_The_brand{
+    width: 386px;
+    height: 368px;    
+    }
+    .brand{
+    width: 405px;
+    height: 93px;
+    }
+    .h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;    
+    }  
+    .h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;        
+    }
+    .main{
+    gap: 39px;    
+    } 
+    .menu{
+    gap: 20px;    
+    }
+    .pic_for{
+    width: 232px;
+    height: 168px;
+    }
+    .fon{
+    width: 232px;
+    height: 168px;        
+    }
+    .text{    
+    width: 154px;
+    left: 39px;
+    top: 59px;  
+    }
+    .pic_acces{
+    width: 735px;
+    height: 116px;    
+    }
+    .text1{
+    left: 287px;
+    top: 33px;    
+    }
+    .fon1{        
+    width: 735px;
+    height: 116px;    
+    }  
+    .info{
+    margin-top: 106px;
+    margin-bottom: 73px;    
+    } 
+    .FI_text{
+    margin-bottom: 74px;
+    }
+    .list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    } 
+    .TT{
+    margin-top: 33px;    
+    }
+    .FSQ{    
+    height: 610px;
+    flex-flow: wrap column;   
+    gap: 48px;
+    }    
+    .pic_Layer{
+    flex-wrap: wrap;
+    gap: 48px;
+    height: 693px;  
+    }
+    .ds{
+    width: 768px;
+    height: 693px;
+    object-fit:cover;       
+    }
+    .FW_box{ 
+    right: 204px;       
+    bottom: 404px;
+    }
+    .Sub_box{
+    left: 105px;    
+    bottom: 219px;    
+    }
+    .footer{
+    width: 768px;   
+    }
+    .BARR{  
+    margin-left: 32px;    
+    }
+    .logo_FIPT{
+    margin-right: 32px;    
+    }
+    }
+    
+
+    @media(max-width: 375px){
+    .container{
+    width: 375px;    
+    } 
+    .btnID, 
+    .btnTrolly, 
+    .five, 
+    .pic_The_brand{
+    display: none;    
+    } 
+    .header{
+    width: 375px;    
+    gap: 200px;      
+    }  
+    .btn_left{
+    margin-left: 16px;
+    justify-content: left;    
+    }
+    .main{
+    width: 375px;
+    height: 363px;
+    }
+    .h1{
+    font-size: 38px;
+    line-height: 46px;    
+    }
+    .h2{
+    font-size: 20px;
+    line-height: 24px;    
+    }
+    .menu{
+    gap: 0;
+    }        
+    .fon{
+    margin-top: 0;
+    margin-bottom: 32px;
+    }
+    .fonP{
+    width: 343px;
+    height: 247px;    
+    }
+    .text{
+    left: 94px;
+    top: 98px;    
+    }
+    .fon1P{
+    width: 343px;
+    height: 111px;
+    object-fit: cover;    
+    }
+    .FI{
+    margin-top: 64px;
+    }
+    .FI_text{
+    margin-bottom: 65px;    
+    }
+    .text1{
+    left: 92px;
+    top: 30px;    
+    }
+    .ds{
+    width: 375px;
+    height: 505px;    
+    }
+    .pic_Layer{
+    width: 375px;
+    height: 505px;  
+    }
+    .FW_box{
+    top: 64px;    
+    right: 17px;     
+    }
+    .pic_FW{
+    width: 91px;
+    height: 91px;    
+    }
+    .FW_text{
+    font-size: 18px;
+    line-height: 22px;    
+    }
+    .Sub_box{
+    width: 375px;    
+    left: 0;
+    top: 317px;   
+    }
+    .Ent_Email{
+    margin-left: 17px;
+    height: 34px; 
+    }
+    .btn_Sub{
+    width: 81px;
+    height: 34px;    
+    }
+    .Sub_text1{
+    line-height: 153.2%;    
+    }
+    .Sub_text2{
+    font-size: 14px;    
+    }
+    .footer{
+    width: 375px;
+    height: 143px;
+    display: flex;
+    flex-flow: wrap column-reverse;  
+    }
+    .BARR{
+    margin-left: 65px;
+    margin-bottom: 9px;    
+    }
+    .logo_FIPT{
+    margin-top: 43px;
+    margin-left: 10px;   
+    }
+    
+    }
